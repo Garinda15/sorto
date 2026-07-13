@@ -24,6 +24,7 @@ int main(int argc, char **argv)
     int m = atoi(argv[1]);
     int mass[m][m];
     int zamen=0;
+
     for (int i=0; i<m; i++)
     {
         for(int j=0; j<m; j++)
